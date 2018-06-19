@@ -36,7 +36,7 @@ This program provides Button interface with different LED colors raspberry pi
  +-----+-----+---------+------+---+---Pi 3---+---+------+---------+-----+-----+
 
 # Hardware connection
-    EPD    =>    Raspberry Pi
+  * EPD    =>    Raspberry Pi
   * VCC    ->    3.3
   * GND    ->    GND
   * Button1->    GPIO 16
@@ -46,9 +46,9 @@ This program provides Button interface with different LED colors raspberry pi
   * LED3   ->    GPIO 18
 
 # How to use
-  1, install the Python libraries.
-  2, change the current directory to where the file located.
-  3, run the code with: 
+  1. install the Python libraries.
+  2. change the current directory to where the file located.
+  3. run the code with: 
      sudo python butterInterface.py
 
 
